@@ -21,9 +21,22 @@ h2 {
   color: #EF5839;
 }
 
+h1, h2 {
+  font-weight: 900;
+}
+
+strong {
+  font-weight: 900;
+}
+
 a {
   color: #EF5839;
 }
+
+a:hover, a:focus {
+  color: skyblue;
+}
+
 .container {
   width: 620px;
   margin: 0 auto;
@@ -41,7 +54,7 @@ a {
 
 .btn {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 10px;
   margin-right: 10px;
   text-decoration: none;
 }
@@ -54,4 +67,9 @@ a {
 .btn-white {
   background: #FFF;
   color: #2E354F;
+}
+
+.btn:hover, .btn:focus {
+  background: rgb(87, 158, 65);
+  color: white;
 }
