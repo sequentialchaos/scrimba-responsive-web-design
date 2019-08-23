@@ -4,11 +4,15 @@ html, body {
 
 body {
   font-size: 18px;
-  font-family: Lato;
+  font-family: 'Lato';
 }
 
 header {
   background: #2E354F;
+}
+
+h1, h2, strong {
+  font-weight: 900;
 }
 
 h1 {
@@ -19,14 +23,6 @@ h1 {
 h2 {
   font-size: 24px;
   color: #EF5839;
-}
-
-h1, h2 {
-  font-weight: 900;
-}
-
-strong {
-  font-weight: 900;
 }
 
 a {
@@ -54,7 +50,7 @@ a:hover, a:focus {
 
 .btn {
   display: inline-block;
-  padding: 10px 10px;
+  padding: 10px 20px;
   margin-right: 10px;
   text-decoration: none;
 }
